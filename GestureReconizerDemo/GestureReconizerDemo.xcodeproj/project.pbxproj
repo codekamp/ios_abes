@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E74F9D1BB96ECF00BBB1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E74F9C1BB96ECF00BBB1DC /* AppDelegate.swift */; };
+		75E74F9F1BB96ECF00BBB1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E74F9E1BB96ECF00BBB1DC /* ViewController.swift */; };
+		75E74FA21BB96ECF00BBB1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E74FA01BB96ECF00BBB1DC /* Main.storyboard */; };
+		75E74FA41BB96ECF00BBB1DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E74FA31BB96ECF00BBB1DC /* Images.xcassets */; };
+		75E74FA71BB96ECF00BBB1DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E74FA51BB96ECF00BBB1DC /* LaunchScreen.xib */; };
+		75E74FB31BB96ECF00BBB1DC /* GestureReconizerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E74FB21BB96ECF00BBB1DC /* GestureReconizerDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E74FAD1BB96ECF00BBB1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E74F8F1BB96ECF00BBB1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E74F961BB96ECF00BBB1DC;
+			remoteInfo = GestureReconizerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75E74F971BB96ECF00BBB1DC /* GestureReconizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureReconizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E74F9B1BB96ECF00BBB1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E74F9C1BB96ECF00BBB1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E74F9E1BB96ECF00BBB1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75E74FA11BB96ECF00BBB1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E74FA31BB96ECF00BBB1DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75E74FA61BB96ECF00BBB1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75E74FAC1BB96ECF00BBB1DC /* GestureReconizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureReconizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E74FB11BB96ECF00BBB1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E74FB21BB96ECF00BBB1DC /* GestureReconizerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureReconizerDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E74F941BB96ECF00BBB1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E74FA91BB96ECF00BBB1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E74F8E1BB96ECF00BBB1DC = {
+			isa = PBXGroup;
+			children = (
+				75E74F991BB96ECF00BBB1DC /* GestureReconizerDemo */,
+				75E74FAF1BB96ECF00BBB1DC /* GestureReconizerDemoTests */,
+				75E74F981BB96ECF00BBB1DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E74F981BB96ECF00BBB1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E74F971BB96ECF00BBB1DC /* GestureReconizerDemo.app */,
+				75E74FAC1BB96ECF00BBB1DC /* GestureReconizerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E74F991BB96ECF00BBB1DC /* GestureReconizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75E74F9C1BB96ECF00BBB1DC /* AppDelegate.swift */,
+				75E74F9E1BB96ECF00BBB1DC /* ViewController.swift */,
+				75E74FA01BB96ECF00BBB1DC /* Main.storyboard */,
+				75E74FA31BB96ECF00BBB1DC /* Images.xcassets */,
+				75E74FA51BB96ECF00BBB1DC /* LaunchScreen.xib */,
+				75E74F9A1BB96ECF00BBB1DC /* Supporting Files */,
+			);
+			path = GestureReconizerDemo;
+			sourceTree = "<group>";
+		};
+		75E74F9A1BB96ECF00BBB1DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E74F9B1BB96ECF00BBB1DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75E74FAF1BB96ECF00BBB1DC /* GestureReconizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E74FB21BB96ECF00BBB1DC /* GestureReconizerDemoTests.swift */,
+				75E74FB01BB96ECF00BBB1DC /* Supporting Files */,
+			);
+			path = GestureReconizerDemoTests;
+			sourceTree = "<group>";
+		};
+		75E74FB01BB96ECF00BBB1DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E74FB11BB96ECF00BBB1DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E74F961BB96ECF00BBB1DC /* GestureReconizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E74FB61BB96ECF00BBB1DC /* Build configuration list for PBXNativeTarget "GestureReconizerDemo" */;
+			buildPhases = (
+				75E74F931BB96ECF00BBB1DC /* Sources */,
+				75E74F941BB96ECF00BBB1DC /* Frameworks */,
+				75E74F951BB96ECF00BBB1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureReconizerDemo;
+			productName = GestureReconizerDemo;
+			productReference = 75E74F971BB96ECF00BBB1DC /* GestureReconizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E74FAB1BB96ECF00BBB1DC /* GestureReconizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E74FB91BB96ECF00BBB1DC /* Build configuration list for PBXNativeTarget "GestureReconizerDemoTests" */;
+			buildPhases = (
+				75E74FA81BB96ECF00BBB1DC /* Sources */,
+				75E74FA91BB96ECF00BBB1DC /* Frameworks */,
+				75E74FAA1BB96ECF00BBB1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E74FAE1BB96ECF00BBB1DC /* PBXTargetDependency */,
+			);
+			name = GestureReconizerDemoTests;
+			productName = GestureReconizerDemoTests;
+			productReference = 75E74FAC1BB96ECF00BBB1DC /* GestureReconizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E74F8F1BB96ECF00BBB1DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CodeKamp;
+				TargetAttributes = {
+					75E74F961BB96ECF00BBB1DC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					75E74FAB1BB96ECF00BBB1DC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 75E74F961BB96ECF00BBB1DC;
+					};
+				};
+			};
+			buildConfigurationList = 75E74F921BB96ECF00BBB1DC /* Build configuration list for PBXProject "GestureReconizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E74F8E1BB96ECF00BBB1DC;
+			productRefGroup = 75E74F981BB96ECF00BBB1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E74F961BB96ECF00BBB1DC /* GestureReconizerDemo */,
+				75E74FAB1BB96ECF00BBB1DC /* GestureReconizerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E74F951BB96ECF00BBB1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E74FA21BB96ECF00BBB1DC /* Main.storyboard in Resources */,
+				75E74FA71BB96ECF00BBB1DC /* LaunchScreen.xib in Resources */,
+				75E74FA41BB96ECF00BBB1DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E74FAA1BB96ECF00BBB1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E74F931BB96ECF00BBB1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E74F9F1BB96ECF00BBB1DC /* ViewController.swift in Sources */,
+				75E74F9D1BB96ECF00BBB1DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E74FA81BB96ECF00BBB1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E74FB31BB96ECF00BBB1DC /* GestureReconizerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E74FAE1BB96ECF00BBB1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E74F961BB96ECF00BBB1DC /* GestureReconizerDemo */;
+			targetProxy = 75E74FAD1BB96ECF00BBB1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E74FA01BB96ECF00BBB1DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E74FA11BB96ECF00BBB1DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E74FA51BB96ECF00BBB1DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E74FA61BB96ECF00BBB1DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E74FB41BB96ECF00BBB1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E74FB51BB96ECF00BBB1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E74FB71BB96ECF00BBB1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureReconizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75E74FB81BB96ECF00BBB1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureReconizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75E74FBA1BB96ECF00BBB1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestureReconizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureReconizerDemo.app/GestureReconizerDemo";
+			};
+			name = Debug;
+		};
+		75E74FBB1BB96ECF00BBB1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestureReconizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureReconizerDemo.app/GestureReconizerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E74F921BB96ECF00BBB1DC /* Build configuration list for PBXProject "GestureReconizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E74FB41BB96ECF00BBB1DC /* Debug */,
+				75E74FB51BB96ECF00BBB1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E74FB61BB96ECF00BBB1DC /* Build configuration list for PBXNativeTarget "GestureReconizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E74FB71BB96ECF00BBB1DC /* Debug */,
+				75E74FB81BB96ECF00BBB1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75E74FB91BB96ECF00BBB1DC /* Build configuration list for PBXNativeTarget "GestureReconizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E74FBA1BB96ECF00BBB1DC /* Debug */,
+				75E74FBB1BB96ECF00BBB1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E74F8F1BB96ECF00BBB1DC /* Project object */;
+}
