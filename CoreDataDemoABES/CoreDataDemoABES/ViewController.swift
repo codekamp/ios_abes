@@ -41,8 +41,6 @@ class ViewController: UIViewController {
         
         course.title = "iOS using Swift"
         course.descript = "this is descritiopn of course"
-        
-        student.setValue(course, forKey: "course")
 
     }
 

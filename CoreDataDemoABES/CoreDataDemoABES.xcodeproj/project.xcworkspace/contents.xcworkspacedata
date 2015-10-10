@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../CoreDataDemoABES/Student.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../CoreDataDemoABES/Course.swift">
-   </FileRef>
-   <FileRef
       location = "self:CoreDataDemoABES.xcodeproj">
    </FileRef>
 </Workspace>
