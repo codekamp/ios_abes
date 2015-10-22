@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>73F438B9-6A46-4CB6-8C70-DA11FFBBA432</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>CoreDataDemoABES</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>
 		<string>github.com:codekamp/ios_abes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoreDataDemoABES/CoreDataDemoABES.xcodeproj/project.xcworkspace</string>
+	<string>CoreDataDemoABES/CoreDataDemoABES.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>

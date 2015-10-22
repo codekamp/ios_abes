@@ -3,13 +3,15 @@
     <entity name="Course" representedClassName="CoreDataDemoABES.Course" syncable="YES">
         <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="course" inverseEntity="Student" syncable="YES"/>
     </entity>
     <entity name="Student" representedClassName="CoreDataDemoABES.Student" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="students" inverseEntity="Course" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Student" positionX="-63" positionY="-18" width="128" height="73"/>
-        <element name="Course" positionX="333" positionY="-36" width="128" height="73"/>
+        <element name="Course" positionX="333" positionY="-36" width="128" height="88"/>
+        <element name="Student" positionX="-63" positionY="-18" width="128" height="88"/>
     </elements>
 </model>

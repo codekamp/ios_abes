@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A5A58A7-B5F8-4964-96A8-23372D89D310</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>
+		<string>github.com:codekamp/ios_abes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParseDemo/ParseDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:codekamp/ios_abes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>082E8532EBB206F66E2225E4D93D939111D47894</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>082E8532EBB206F66E2225E4D93D939111D47894</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_abes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
