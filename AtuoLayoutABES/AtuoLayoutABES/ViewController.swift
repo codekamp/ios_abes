@@ -16,6 +16,25 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var resultTextField: UITextField!
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardDidShowNotification, object: nil, queue: NSOperationQueue.mainQueue()) { (notification) -> Void in
+            println("Keyboard showed up")
+            println(notification.userInfo)
+        }
+        
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "handleKeyboardHide:", name: UIKeyboardDidHideNotification, object: nil)
+    }
+    
+    func handleKeyboardHide(notification:NSNotification) {
+        println("Keyboard hide")
+        println(notification.userInfo)
+    }
+    
+    
+    
     @IBAction func digitPressed(sender: UIButton) {
         
         var aRandomVar = Test(labelOfSomeValue: 5, "Hello")
@@ -27,6 +46,7 @@ class ViewController: UIViewController {
         }
         
         enteringNumber = true
+        
     }
     
     @IBAction func operationPressed(sender: UIButton) {
@@ -67,5 +87,9 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func parentViewTapped(sender: UITapGestureRecognizer) {
+        
+        self.resultTextField.resignFirstResponder()
+    }
 }
 

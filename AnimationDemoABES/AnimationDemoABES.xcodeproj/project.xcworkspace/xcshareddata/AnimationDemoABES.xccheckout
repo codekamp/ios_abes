@@ -5,24 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C9C447CC-935C-4A47-960E-611DA7E0894E</string>
+	<string>B9CBFBCF-B520-4DD1-90EF-2FA57F9C3DBE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AtuoLayoutABES</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>
 		<string>github.com:codekamp/ios_abes.git</string>
-		<key>A4ABC3EBE5AC59A162A2380215914F474DA4AAE4</key>
-		<string>https://bitbucket.org/pchaudhary/ios_batch_0001.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AtuoLayoutABES/AtuoLayoutABES.xcodeproj</string>
+	<string>AnimationDemoABES/AnimationDemoABES.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>082E8532EBB206F66E2225E4D93D939111D47894</key>
 		<string>../../..</string>
-		<key>A4ABC3EBE5AC59A162A2380215914F474DA4AAE4</key>
-		<string>../../../../ios_batch_0001</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:codekamp/ios_abes.git</string>
@@ -39,14 +35,6 @@
 			<string>082E8532EBB206F66E2225E4D93D939111D47894</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios_abes</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A4ABC3EBE5AC59A162A2380215914F474DA4AAE4</string>
-			<key>IDESourceControlWCCName</key>
-			<string>ios_batch_0001</string>
 		</dict>
 	</array>
 </dict>
